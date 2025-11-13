@@ -1,5 +1,5 @@
 # thrml_pymdp
-Experimental code for comparing the new `thrml` library with action-less POMDPs (HMMs) produced by fixed-point iterative VFE minimization in `pymdp`.
+Experimental code for comparing the new `thrml` library with action-less POMDPs (HMMs) optimizing via iterative VFE minimization in `pymdp`.
 
 This repository contains experimental code that compares two Python libraries for probabilistic discrete state inference: THRML and pymdp. The code implements a minimal single-factor POMDP test case (3 hidden states, 2 observations, 5 timesteps) and validates that THRML's sampling-based inference can approximate pymdp's variational inference prior to further testing. This project is purely experimental and makes no assumption that the libraries should necessarily be applied to the same problems nor applied for the same purposes.
 
